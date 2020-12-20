@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#nav .router-link-active {
+  @apply text-red-400;
+}
+
+@screen sm {
+  #nav .router-link-active {
+    @apply border-b-2 border-red-400 text-white;
+  }
+}
